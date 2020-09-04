@@ -12,8 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (Swizzling)
 
-//- (void)originalFunction;
-//- (void)swizzledFunction;
+- (void)originalFunction;
+- (void)swizzledFunction;
 
 - (void)originalFunc;
 @end

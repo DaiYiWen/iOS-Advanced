@@ -24,14 +24,14 @@
 //    [self swizzledFunction];
     
     //Method Swizzling 方案 A
-//    [self originalFunction];
-//    [self swizzledFunction];
+    [self originalFunction];
+    [self swizzledFunction];
     
     
     //Method Swizzling 方案 B
     
     
-    [self printUITextFieldList];
+//    [self printUITextFieldList];
 }
 
 
